@@ -148,3 +148,33 @@ ul{
     border-radius: 20px;
     margin-bottom: 10px;
 }
+
+/*quote*/
+
+.quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    height: 400px;
+}
+
+.blockquote{
+    background-color: #E5E7EB;
+    height: 100px;
+    width: 800px;
+}
+
+.blockquote, .blockquote_text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+    text-align: justify;
+}
+
+.blockquote_credits{
+    font-weight: bold;
+    font-size: 26px;
+    text-align: right;
+}
