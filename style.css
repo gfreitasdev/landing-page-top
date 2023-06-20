@@ -103,6 +103,8 @@ ul{
     font-size: 18px;
     font-weight: bold;
     margin-top: 20px;
+    cursor: pointer;
+    height: 40px;
 }
 
 /* painel de informação*/
@@ -177,4 +179,31 @@ ul{
     font-weight: bold;
     font-size: 26px;
     text-align: right;
+}
+
+/*Call to Action*/
+
+.call-to-action{
+    height: 150px;
+    padding: 100px;
+}
+
+.container-call{
+    background-color: #3882F6;
+    display: flex;
+    height: 100px;
+    border-radius: 7px;
+    justify-content: center;
+    color: #E5E7EB;
+    align-items: center;
+    padding: 25px;
+}
+
+.content{
+    width: 650px;
+}
+
+.container-call > .sign-up{
+    border: 2px solid #E5E7EB; 
+    margin: 0;
 }
