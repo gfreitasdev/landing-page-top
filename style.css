@@ -207,3 +207,12 @@ ul{
     border: 2px solid #E5E7EB; 
     margin: 0;
 }
+
+footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
